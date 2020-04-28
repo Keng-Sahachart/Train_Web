@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         fieldset { border:1px solid green }
+
+       legend {
+            padding: 0.2em 0.5em;
+            border: 1px solid green;
+            color: green;
+            font-size: 90%;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    fieldset ทำเป็น Group Box ครอบ Field ต่างๆ <br>
+    legend ให้ GroupBox มี Text 
+
+    <form>
+        <fieldset>
+        <legend>Subscription info</legend>
+          <label for="name">Username:</label>
+          <input type="text" name="name" id="name" />
+          <br />
+          <label for="mail">E-mail:</label>
+          <input type="text" name="mail" id="mail" />
+          <br />
+          <label for="address">Address:</label>
+          <input type="text" name="address" id="address" size="40" />
+        </fieldset>
+      </form>
+      
+</body>
+
+</html>
